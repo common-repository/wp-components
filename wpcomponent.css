@@ -1,0 +1,42 @@
+form.components {
+	width:535px;
+}
+form.components .wpc_input {
+	width:250px;
+	}
+form.components .wpc_textarea {
+	width:500px;
+	}
+form.components .eachsection {
+	border:1px solid #ccc;
+	padding:15px;
+	margin:0 0 15px 0;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+form.components .eachsection h3 {
+	font-weight:bold;
+	margin:0 0 5px 0;
+	font-size:14px;
+	position:relative;
+}
+form.components .eachsection h3 em {
+	color:#666;
+	font-family:georgia;
+	font-style:italic;
+	font-weight:100;
+	font-size:15px;
+}
+form.components .eachsection h3 .expand {
+	display:none;
+	}
+form.components .eachsection h3 a.expand, form.components .eachsection h3 a.collapse {
+	position:absolute;
+	top:2px;
+	left:485px;
+	font-weight:900;
+	font-size:12px;
+	text-decoration:none;
+}
